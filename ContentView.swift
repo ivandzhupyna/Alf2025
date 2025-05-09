@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  Alf
-//
-//  Created by Ivan Dzhupyna on 05.05.25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -20,10 +13,9 @@ struct ContentView: View {
                     Label("Profile", systemImage: "person.fill")
                 }
         }
-        .preferredColorScheme(.light)
     }
 }
 
 #Preview {
     ContentView()
-}
+} 
